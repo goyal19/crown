@@ -1,0 +1,16 @@
+h3{
+    font-size: 20px !important;
+    
+}
+.btn-success:hover{
+    background-color: aquamarine;
+}
+canvas{
+    animation-name: king;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes king{
+    from{box-shadow: 1px 1px 35px green ;}
+    to{box-shadow: 1px 1px 35px blue;}
+}
